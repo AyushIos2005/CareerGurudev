@@ -114,6 +114,8 @@ Upload the `dist/` folder or connect your GitHub repo directly.
 ## 👨‍💻 Author
 
 **Ayush Verma**
+**From MCKV INSTITUTE OF ENGINEERING **
+**From Branch of Computer Science and Engineering **
 
 * GitHub: [@AyushIos2005](https://github.com/AyushIos2005)
 
