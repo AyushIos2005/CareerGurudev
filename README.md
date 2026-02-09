@@ -1,16 +1,128 @@
-# React + Vite
+# 🎓 CareerGurudev
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CareerGurudev is an **AI-powered career guidance platform** designed to help students—especially after **10th standard**—make informed decisions about their future. The platform provides personalized career recommendations, quizzes, and guidance across **Science, Commerce, and Arts** streams.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* 🤖 **AI-Based Career Quiz** – Smart recommendations based on interests & strengths
+* 🎥 **Modern Hero Section** – Video background with premium UI
+* 🧭 **Stream Guidance** – Science, Commerce & Arts pathways
+* 🔐 **Authentication Ready** – Clerk integration supported
+* 📱 **Fully Responsive** – Works on mobile, tablet & desktop
+* ⚡ **Fast Performance** – Built with Vite + React
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend:** React.js, Vite
+* **Styling:** Tailwind CSS
+* **Authentication:** Clerk (optional / configurable)
+* **Build Tool:** Vite
+* **Version Control:** Git & GitHub
+
+---
+
+## 📂 Project Structure
+
+```
+streamfinder/
+├── public/          # Static assets (videos, images)
+├── src/             # React components & logic
+│   ├── components/
+│   ├── pages/
+│   └── assets/
+├── TermandCond/     # Terms & Conditions pages
+├── index.html
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/AyushIos2005/CareerGurudev.git
+
+# Go to project folder
+cd CareerGurudev
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+The app will run on:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🔐 Environment Variables
+
+Create a `.env` file in the root directory:
+
+```env
+VITE_CLERK_PUBLISHABLE_KEY=your_key_here
+VITE_API_URL=your_api_url_here
+```
+
+> ⚠️ Never commit `.env` files to GitHub.
+
+---
+
+## 🌐 Deployment
+
+The project can be easily deployed on **Vercel** or **Netlify**.
+
+```bash
+npm run build
+```
+
+Upload the `dist/` folder or connect your GitHub repo directly.
+
+---
+
+## 📸 Screenshots
+
+> (Add screenshots of Home page, Quiz page, Results page here)
+
+---
+
+## 🧠 Future Enhancements
+
+* AI Counselor Chatbot
+* Career Roadmaps (PDF)
+* Multi-language support
+* Admin Dashboard
+* Student Progress Tracking
+
+---
+
+## 👨‍💻 Author
+
+**Ayush Verma**
+
+* GitHub: [@AyushIos2005](https://github.com/AyushIos2005)
+
+---
+
+## ⭐ Support
+
+If you like this project, don’t forget to **star ⭐ the repository** and share it with friends!
+
+---
+
+### 🔥 Built with passion to guide students toward the right career path
